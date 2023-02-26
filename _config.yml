@@ -51,23 +51,23 @@ sessoes:
         descricao: "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend"
     
     historicoProfissional:
-      item1: 
-        titulo:
-        ano:
-        instituicao: ""
+      - 
+        titulo: "Senior graphic design specialist"
+        ano: "2019 - Present"
+        instituicao: "Experion, New York, NY"
         atividades:
-          item1:
-          item2:
-          item3:
+          - "Lead in the design, development, and implementation of the graphic, layout, and production communication materials"
+          - "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project."
+          - "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design"
       
-      item2: 
-        titulo:
-        ano:
-        instituicao: ""
+      -
+        titulo: "Graphic design specialist"
+        ano: "2017 - 2018"
+        instituicao: "Stepping Stone Advertising, New York, NY"
         atividades:
-          item1:
-          item2:
-          item3:
+          - "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements)."
+          - "Managed up to 5 projects or tasks at a given time while under pressure"
+          - "Recommended and consulted with clients on the most appropriate graphic design"
 
 
     
