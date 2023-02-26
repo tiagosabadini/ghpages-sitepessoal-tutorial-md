@@ -14,9 +14,10 @@
           <h4>{{ site.sessoes.experiencia.tituloSumario }}</h4>
           <p><em>{{ site.sessoes.experiencia.descricaoSumario }}</em></p>
           <ul>
-            {% for item in site.sessoes.experiencia.detalheSumario %}
-              <li>{{ item }}</li>
-            {% endfor %}
+            {% assign items = site.sessoes.experiencia.detalheSumario %}
+            <li>{{ items.item1 }}</li>
+            <li>{{ items.item2 }}</li>
+            <li>{{ items.item3 }}</li>
           </ul>
         </div>
 
