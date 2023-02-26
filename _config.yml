@@ -6,3 +6,23 @@ author:
   facebook: "https://facebook.com/tiagosabadini"
   instagram: "https://instagram.com/tiagosabadini"
   linkedin: "https://linkedin.com/tiagosabadini"
+
+sessoes:
+  sobre:
+    titulo: "Sobre mim"
+    foto: "assets/img/profile-img.jpg"
+    descricao: "Graduação em Analise e Desenvolvimento de sistemas, MBAs em Gestão de Projetos e Gestão Exponencial e Empreendedorismo. <br/>
+            Tenho mais de 10 anos de experiência como programador. Iniciando em agências de publicidade com wordpress e criação de layouts para sites.<br/>       
+            Criei minha primeira empresa para desenvolvimento de sites em 2010. Em 2014 fundei uma software house com um sócio e prestamos serviços para setor financeiro em todo Brasil. Fiz meu primeiro exit em 2019 vendendo minha participação na empresa."
+    tituloProfissional: "CTO at BYeCAR"
+    descricaoProfissional: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua."
+    dataNascimento: "06/12/1983"
+    website: "https://blog.itgolabs.com"
+    whatsapp: "(27) 9 0000-0000"
+    cidade: "Vitória"
+    idade: 39
+    email: "sabadini.tiago@gmail.com"
+    graduacao: "MBA em Gestão Exponencial"
+    freelance: "Disponível"
+    
