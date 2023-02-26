@@ -38,13 +38,13 @@ sessoes:
       - "alice.barkley@example.com"
 
     educacao:
-      0: 
+      - 
         titulo: "Master of Fine Arts &amp; Graphic Design"
         ano: "2015 - 2016"
         instituicao: "Rochester Institute of Technology, Rochester, NY"
         descricao: "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend"
       
-      1: 
+      -
         titulo: "Bachelor of Fine Arts &amp; Graphic Design"
         ano: "2010 - 2014"
         instituicao: "Rochester Institute of Technology, Rochester, NY"
