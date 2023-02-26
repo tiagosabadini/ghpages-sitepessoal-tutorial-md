@@ -1,5 +1,5 @@
 ---
-layout: hero-section
+layout: default
 author:
   name: Tiago Sabadini
   typeItems: Programador, Gestor de Projetos, CTO
