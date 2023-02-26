@@ -33,9 +33,9 @@ sessoes:
     tituloSumario: "Tiago Sabadini"
     descricaoSumario: "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable."
     detalheSumario:
-      0: "Portland par 127,Orlando, FL"
-      1: "(123) 456-7891"
-      2: "alice.barkley@example.com"
+      - "Portland par 127,Orlando, FL"
+      - "(123) 456-7891"
+      - "alice.barkley@example.com"
 
     educacao:
       0: 
