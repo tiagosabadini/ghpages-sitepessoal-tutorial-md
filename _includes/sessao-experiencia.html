@@ -15,9 +15,9 @@
           <p><em>{{ site.sessoes.experiencia.descricaoSumario }}</em></p>
           <ul>
             {% assign items = site.sessoes.experiencia.detalheSumario %}
-            <li>{{ items.item1 }}</li>
-            <li>{{ items.item2 }}</li>
-            <li>{{ items.item3 }}</li>
+            {% for item in items %}
+              <li>{{ item }}</li>
+            {% endfor %}
           </ul>
         </div>
 
