@@ -3,36 +3,36 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>{{ sessoes.sobre.titulo }}</h2>
-          <p>{{ sessoes.sobre.descricao }}</p>
+          <h2>{{ site.sessoes.sobre.titulo }}</h2>
+          <p>{{ site.sessoes.sobre.descricao }}</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="{{ sessoes.sobre.foto }}" class="img-fluid" alt="">
+            <img src="{{ site.sessoes.sobre.foto }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>{{ sessoes.sobre.tituloProfissional }}</h3>
-            {% if sessoes.sobre.descricaoProfissional %}
+            <h3>{{ site.sessoes.sobre.tituloProfissional }}</h3>
+            {% if site.sessoes.sobre.descricaoProfissional %}
               <p class="fst-italic">
-                {{ sessoes.sobre.descricaoProfissional }}
+                {{ site.sessoes.sobre.descricaoProfissional }}
               </p>
             {% endif %}
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Data de Nascimento:</strong> <span>{{ sessoes.sobre.dataNascimento }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{{ sessoes.sobre.website }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Whatsapp:</strong> <span>{{ sessoes.sobre.whatsapp }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>{{ sessoes.sobre.cidade }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Data de Nascimento:</strong> <span>{{ site.sessoes.sobre.dataNascimento }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{{ site.sessoes.sobre.website }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Whatsapp:</strong> <span>{{ site.sessoes.sobre.whatsapp }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>{{ site.sessoes.sobre.cidade }}</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>{{ sessoes.sobre.idade }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Graduação:</strong> <span>{{ sessoes.sobre.graduacao }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>{{ sessoes.sobre.email }}</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>{{ sessoes.sobre.freelance }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>{{ site.sessoes.sobre.idade }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Graduação:</strong> <span>{{ site.sessoes.sobre.graduacao }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>{{ site.sessoes.sobre.email }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>{{ site.sessoes.sobre.freelance }}</span></li>
                 </ul>
               </div>
             </div>
